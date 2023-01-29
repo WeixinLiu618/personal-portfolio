@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.d45e0d6c.css",
+    "main.js": "/personal-portfolio/static/js/main.829764db.js",
+    "static/js/787.5809834d.chunk.js": "/personal-portfolio/static/js/787.5809834d.chunk.js",
+    "static/media/pet_adoption_platform.png": "/personal-portfolio/static/media/pet_adoption_platform.6cf224187355b5eb37e2.png",
+    "static/media/ip_filter_system.png": "/personal-portfolio/static/media/ip_filter_system.d4639ea2a2ce538767af.png",
+    "static/media/easy_animator.png": "/personal-portfolio/static/media/easy_animator.fbf107b98e340dab8479.png",
+    "static/media/profile.png": "/personal-portfolio/static/media/profile.21760e600aa52fa7987e.png",
+    "static/media/citic_logo.png": "/personal-portfolio/static/media/citic_logo.af94af1c28ea5779cc66.png",
+    "static/media/AJAX_logo.png": "/personal-portfolio/static/media/AJAX_logo.ea7750a7799fd0bab1c9.png",
+    "static/media/neu_logo.svg": "/personal-portfolio/static/media/neu_logo.b8519a9f47f661b95f84a4b762cb0159.svg",
+    "static/media/xcode_logo.png": "/personal-portfolio/static/media/xcode_logo.5b55c8584d2545a1bb23.png",
+    "static/media/nju_logo.svg": "/personal-portfolio/static/media/nju_logo.41df2e31f61e2438f6c73affdcd05229.svg",
+    "static/media/react_logo.png": "/personal-portfolio/static/media/react_logo.f268964f328ad9db0a9c.png",
+    "index.html": "/personal-portfolio/index.html",
+    "main.d45e0d6c.css.map": "/personal-portfolio/static/css/main.d45e0d6c.css.map",
+    "main.829764db.js.map": "/personal-portfolio/static/js/main.829764db.js.map",
+    "787.5809834d.chunk.js.map": "/personal-portfolio/static/js/787.5809834d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d45e0d6c.css",
+    "static/js/main.829764db.js"
+  ]
+}
