@@ -1,0 +1,52 @@
+
+
+
+h1{
+  font-family: 'Poppins';
+  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  
+  /* width: 100%;
+  height: 100vh; */
+
+
+  background-image: 
+  linear-gradient(rgba(245, 239, 230, .8) 0.8px, transparent 0.1px), 
+  linear-gradient(90deg, rgba(245, 239, 230, .8) 0.8px, transparent 0.1px), 
+  linear-gradient(rgba(245, 239, 230, .8) 0.8px, transparent 0.1px), 
+  linear-gradient(90deg, rgba(245, 239, 230, .8) 0.8px, transparent 0.1px);
+  background-size: 20px 20px, 20px 20px;
+	background-position: -2px -2px, -2px -2px;
+  
+}
+
+
+
+.title-bar { 
+  width:100%;
+  height:5rem;
+  background-color:#354259;
+  border:0px;
+  margin: 0px;
+  font-size: 2.5rem;
+  font-weight: 150;
+  color:#E8DFCA;
+  line-height:5rem;
+  padding-left: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+

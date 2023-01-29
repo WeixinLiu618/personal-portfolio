@@ -1,0 +1,59 @@
+ /* banner css */
+
+ .banner-page {
+   background-color:#7895B2;
+   /* padding-bottom: 35%; */
+   border:0px;
+   margin: 0px;
+ }
+
+ .banner-container {
+   padding-bottom: 25%;
+ }
+
+ 
+ .intro {
+  padding: 10% 15% 0;
+  color:#F5EFE6;
+  margin: 0%;
+  text-shadow: 0.05em 0.05em 0.1em gray;
+ }
+
+ .name {
+  font-size:4rem;
+ }
+
+.typed {
+  padding-top: 0%;
+  font-size:2rem;
+
+}
+.typed-text {
+  color: #354259 
+}
+
+.detail {
+  padding-top: 0%;
+  font-size:1.5rem;
+}
+
+.social {
+  padding: 2% 15% 0;
+}
+
+/* .social-icon {
+  background-color:#7895B2;
+} */
+.social-icon:hover {
+  
+  background-color:#E8DFCA !important;
+}
+.contact-button {
+  color: #354259 !important;
+  background-color:#AEBDCA !important;
+}
+
+.contact-button:hover {
+  color:#776464 !important;;
+  background-color:#E8DFCA !important;
+}

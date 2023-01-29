@@ -1,0 +1,19 @@
+/* about css */
+
+.about-page {
+  min-height:100vh;
+}
+
+.about-container {
+  padding: 10% 15% 10%;
+
+}
+
+.about-details{
+ 
+  color:#354259;
+  margin: 0%;
+  padding-top: 0%;
+  font-size:1.3rem;
+ }
+

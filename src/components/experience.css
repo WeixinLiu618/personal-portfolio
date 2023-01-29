@@ -1,0 +1,16 @@
+
+/* section {
+  font-family: 'Poppins', sans-serif;
+} */
+
+.experience-container {
+  padding: 2% 10% 5%;
+}
+.experience-content {
+  font-size: 15px;
+}
+.tools-container {
+  padding-left: 4%;
+  font-weight: bold;
+  /* font-family: 'Roboto', sans-serif; */
+}

@@ -1,0 +1,32 @@
+.skills-container {
+  text-align: center;
+  /* margin: auto; */
+  padding: 2% 10% 5%;
+  
+}
+.sub-container {
+  padding: 3%;
+}
+
+.skill-logo-img {
+  padding-top: 3%;
+  width: 4rem;
+  
+  /* padding-bottom: 1%; */
+}
+.skill-text {
+  padding-bottom: 5%;
+}
+
+.single-logo {
+  width: 14.28%;
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 0 0;
+  margin: 0;
+}
