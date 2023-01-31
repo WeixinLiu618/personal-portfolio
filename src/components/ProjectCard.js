@@ -44,7 +44,7 @@ export const ProjectCard = ({ project }) => {
   };
 
   return (
-    <Card sx={{ width: 300, minHeight: 400 }}>
+    <Card sx={{ width: 300, minHeight: 400, boxShadow: 3 }}>
       <CardHeader
         action={
           <ExpandMore
@@ -70,10 +70,7 @@ export const ProjectCard = ({ project }) => {
           </CardContent>
         </Collapse>
       ) : (
-        <CardActionArea
-          href={project.link}
-          target="_blank"
-        >
+        <CardActionArea href={project.link} target="_blank">
           <CardMedia
             component="img"
             height="300"
