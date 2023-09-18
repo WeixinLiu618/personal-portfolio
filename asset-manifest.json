@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.7482d8a5.css",
-    "main.js": "/personal-portfolio/static/js/main.d28464e3.js",
+    "main.css": "/personal-portfolio/static/css/main.c7778bee.css",
+    "main.js": "/personal-portfolio/static/js/main.549ab25e.js",
     "static/js/787.5809834d.chunk.js": "/personal-portfolio/static/js/787.5809834d.chunk.js",
     "static/media/pet_adoption_platform.png": "/personal-portfolio/static/media/pet_adoption_platform.6cf224187355b5eb37e2.png",
     "static/media/ip_filter_system.png": "/personal-portfolio/static/media/ip_filter_system.d4639ea2a2ce538767af.png",
+    "static/media/husky_market.png": "/personal-portfolio/static/media/husky_market.3c288d3f1701e6a246ec.png",
     "static/media/easy_animator.png": "/personal-portfolio/static/media/easy_animator.fbf107b98e340dab8479.png",
+    "static/media/husky_market1.png": "/personal-portfolio/static/media/husky_market1.f3aa3c53a537d5fc6859.png",
     "static/media/profile.png": "/personal-portfolio/static/media/profile.21760e600aa52fa7987e.png",
     "static/media/citic_logo.png": "/personal-portfolio/static/media/citic_logo.af94af1c28ea5779cc66.png",
     "static/media/AJAX_logo.png": "/personal-portfolio/static/media/AJAX_logo.ea7750a7799fd0bab1c9.png",
@@ -14,12 +16,12 @@
     "static/media/nju_logo.svg": "/personal-portfolio/static/media/nju_logo.41df2e31f61e2438f6c73affdcd05229.svg",
     "static/media/react_logo.png": "/personal-portfolio/static/media/react_logo.f268964f328ad9db0a9c.png",
     "index.html": "/personal-portfolio/index.html",
-    "main.7482d8a5.css.map": "/personal-portfolio/static/css/main.7482d8a5.css.map",
-    "main.d28464e3.js.map": "/personal-portfolio/static/js/main.d28464e3.js.map",
+    "main.c7778bee.css.map": "/personal-portfolio/static/css/main.c7778bee.css.map",
+    "main.549ab25e.js.map": "/personal-portfolio/static/js/main.549ab25e.js.map",
     "787.5809834d.chunk.js.map": "/personal-portfolio/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7482d8a5.css",
-    "static/js/main.d28464e3.js"
+    "static/css/main.c7778bee.css",
+    "static/js/main.549ab25e.js"
   ]
 }
