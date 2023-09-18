@@ -66,7 +66,7 @@ export const SideNav = () => {
           <ListItemText primaryTypographyProps={style} primary="Contact" />
         </ListItemButton>
 
-        <ListItemButton href="https://drive.google.com/file/d/1iVv_Hp90Lx3jaOwuWJ90y9dDUzZD7zdJ/view?usp=share_link" target="_blank">
+        <ListItemButton href="https://drive.google.com/file/d/1HtGp7cB-3bwYa62q6Ix6uUgMVpHA4XoR/view?usp=sharing" target="_blank">
           <ListItemIcon>
             <ChromeReaderModeIcon sx={{ color: "#776464" }} />
           </ListItemIcon>
