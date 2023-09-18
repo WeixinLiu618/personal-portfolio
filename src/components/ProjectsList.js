@@ -1,5 +1,20 @@
 export const ProjectsList = [
   {
+    title: "Husky Market",
+    subheader: "Android Application – Secondhand Items Exchange Platform",
+    image: "husky_market1",
+    tools: "Java, Android XML, Firebase",
+    github: "https://github.com/WeixinLiu618/NUMAD23sp_Team7",
+    link: null,
+    details: [
+      "Led the complete development cycle of a second-hand commodity exchange platform.",
+      "Crafted an intuitive user interface using Android XML, utilizing RecyclerView for efficient list operations and Fragments for modular app design.",
+      "Ensured user security with Firebase Authentication.",
+      "Architected a comprehensive data model tailored for Firestore integration, facilitating effective product management, real-time chat capabilities, and user-data relations. Amplified user engagement with timely notifications via Firebase Cloud Messaging."
+    ],
+  },
+
+  {
     title: "Paws To Hands",
     subheader: "Full Stack Web Application – Pet Adoption Platform",
     image: "pet_adoption_platform",
