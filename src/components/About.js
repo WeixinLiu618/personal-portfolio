@@ -14,8 +14,7 @@ export const About = () => {
         <br />
         <p className="about-details">
         In my previous internships and course projects, 
-        I have had the opportunity to work on a variety of projects, 
-        including developing a web application using React and creating a CRUD API with GraphQL. 
+        I have had the opportunity to work on a variety of projects.
         I have also gained valuable experience working on a team and collaborating with stakeholders to deliver high-quality products.
         </p>
         <br />

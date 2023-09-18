@@ -24,7 +24,7 @@ export const Experience = () => {
     fontFamily: "Roboto",
     textAlign: "right",
     paddingRight: "10%",
-    verticalAlign: "bottom"
+    verticalAlign: "bottom",
   };
 
   return (
@@ -36,80 +36,6 @@ export const Experience = () => {
       <h1 className="title-bar">EXPERIENCE</h1>
 
       <div className="experience-container">
-        {/* citic */}
-        <div className="sub-container">
-          <Card
-            className="experience-card"
-            sx={{
-              maxWidth: 800,
-              boxShadow: 3,
-              flexDirection: "column",
-              margin: "auto",
-            }}
-          >
-            <Box sx={{ display: "flex", flexDirection: "row" }}>
-              <div style={{ width: "50%" }} >
-                <CardHeader
-                  title={"China CITIC Bank"}
-                  subheader={<div>July 2019 – May 2021 | Nanjing, China </div>}
-                  titleTypographyProps={style_employer}
-                  sx={{ height: "auto" }}
-                  avatar={
-                    <Avatar
-                      alt="CITIC"
-                      src={citic_logo}
-                      sx={{
-                        width: "40px",
-                        height: "40px",
-                      }}
-                    />
-                  }
-                />
-              </div>
-
-              <div style={{ width: "50%" }}>
-                <CardHeader
-                  title={"Marketing Data Analyst"}
-                  titleTypographyProps={style_title}
-                  sx={{ height: "auto" }}
-                />
-              </div>
-            </Box>
-
-            <Divider />
-            <CardContent className="experience-content">
-              <ul>
-                <li>
-                  Generated sales insights using <span>SQL</span> and R to
-                  launch two e-loan projects and increased seasonal profits by
-                  8%.
-                </li>
-
-                <li>
-                  Utilized NumPy library in Python to automate data collection
-                  and analysis to screening potential customers.
-                </li>
-                <li>
-                  Built statistical models by R to perform advanced data
-                  analysis techniques such as regression analysis, time series
-                  analysis, and Monte Carlo simulations.
-                </li>
-
-                <li>
-                  Mentored 10+ interns and junior team members on process and
-                  strategies of data analyzing.
-                </li>
-              </ul>
-            </CardContent>
-
-            <CardContent sx={{ backgroundColor: "#F5EFE6" }}>
-              <div className="tools-container">
-                <span>Tools: </span>Python, SQL, R
-              </div>
-            </CardContent>
-          </Card>
-        </div>
-
         {/* shenzhou */}
         <div className="sub-container">
           <Card
@@ -125,9 +51,7 @@ export const Experience = () => {
               <div style={{ width: "65%" }}>
                 <CardHeader
                   title={"Yangzhou Shenzhou Auto Internal Ornament Ltd."}
-                  subheader={
-                    <div>May 2021 – August 2021 | Yangzhou, China </div>
-                  }
+                  subheader={<div>May 2021 – Dec 2021 | Yangzhou, China </div>}
                   titleTypographyProps={style_employer}
                   sx={{ height: "auto" }}
                   avatar={
@@ -156,30 +80,123 @@ export const Experience = () => {
             <CardContent className="experience-content">
               <ul>
                 <li>
-                  Programmed and managed the backend of services and JSP view
-                  pages using Spring MVC framework.
+                  Designed an inventory management platform supporting searching
+                  and managing inventories via REST APIs.
+                </li>
+
+                <li>
+                  Built scalable infrastructures, including DynamoDB with GSI,
+                  ElasticSearch clusters, and API Gateway with Lambda, enhancing
+                  system performance and user experience.
+                </li>
+
+                <li>
+                  Designed DDB schema, hashkey to avoid hot partition. And
+                  performed load test with ECS and Siege.
+                </li>
+
+                <li>
+                  Ensured security with AWS WAF for DDoS throttling and
+                  implemented key-based signing service against tampering.
                 </li>
                 <li>
-                  Revamped the presentation layer, including creating action
-                  classes and result pages by using Struts 2.
-                </li>
-                <li>
-                  Utilized Hibernate to map Java objects to MySQL database
-                  tables, simplifying data access and reducing the amount of
-                  code required. Improved the response time by 30% by optimizing
-                  HQL queries.
-                </li>
-                <li>Database Management System</li>
-                <li>
-                  Created JUnit tests for various modules of the application.
+                  Established dashboard, alarms and ticket system to monitor
+                  service availability, call volume and latency. The
+                  applicationserves 500k requests per day at 99.5%+
+                  availability.
                 </li>
               </ul>
             </CardContent>
 
             <CardContent sx={{ backgroundColor: "#F5EFE6" }}>
               <div className="tools-container">
-                <span>Tools: </span>Java, Spring, Struts 2, Hibernate, MySQL,
-                JUnit
+                <span>Technologies: </span> REST APIs, DynamoDB, ElasticSearch,
+                API Gateway with Lambda
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+
+        {/* citic */}
+        <div className="sub-container">
+          <Card
+            className="experience-card"
+            sx={{
+              maxWidth: 800,
+              boxShadow: 3,
+              flexDirection: "column",
+              margin: "auto",
+            }}
+          >
+            <Box sx={{ display: "flex", flexDirection: "row" }}>
+              <div style={{ width: "50%" }}>
+                <CardHeader
+                  title={"China CITIC Bank"}
+                  subheader={<div>July 2019 – May 2021 | Nanjing, China </div>}
+                  titleTypographyProps={style_employer}
+                  sx={{ height: "auto" }}
+                  avatar={
+                    <Avatar
+                      alt="CITIC"
+                      src={citic_logo}
+                      sx={{
+                        width: "40px",
+                        height: "40px",
+                      }}
+                    />
+                  }
+                />
+              </div>
+
+              <div style={{ width: "50%" }}>
+                <CardHeader
+                  title={"Data Analyst"}
+                  titleTypographyProps={style_title}
+                  sx={{ height: "auto" }}
+                />
+              </div>
+            </Box>
+
+            <Divider />
+            <CardContent className="experience-content">
+              <ul>
+                <li>
+                  Developed an asynchronous Business Intelligence (BI)
+                  automation tool for periodic aggregation of customer data,
+                  facilitating enhanced data analysis.
+                </li>
+
+                <li>
+                  Optimized data processing by employing clustering algorithms
+                  with the MapReduce paradigm, achieving a 60% reduction in
+                  processing time.
+                </li>
+
+                <li>
+                  Designed and executed a reaper service to purge inactive
+                  records, leading to a 40% storage reduction and a 30% decrease
+                  in associated storage costs.
+                </li>
+
+                <li>
+                  Implemented a robust recovery script to swiftly restore
+                  records erroneously purged by the reaper service, ensuring
+                  data integrity and minimizing potential operational
+                  disruptions.
+                </li>
+
+                <li>
+                  Collaborated with the testing team to conduct penetration
+                  tests, ensuring system security, and subsequently spearheaded
+                  the product readiness review for production deployment.
+                </li>
+              </ul>
+            </CardContent>
+
+            <CardContent sx={{ backgroundColor: "#F5EFE6" }}>
+              <div className="tools-container">
+                <span>Technologies: </span> MapReduce, Recovery script,
+                Penetration tests
               </div>
             </CardContent>
           </Card>
